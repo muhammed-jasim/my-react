@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(70, 94, 116);
+}
+h2{
+    width: 90%;
+}
+.heading{
+    text-align: start;
+    padding: 5%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.signupform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+    
+}
+input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    padding: 3%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+li{
+    padding: 2%;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 3%;
+    border-radius: 5px; 
+    margin-top: 8%;
+    border: 1px solid black;
+    cursor: pointer;
+    width:80%;
+    background-color: #3860ff;
+}
+#signup{
+    width: 28%;
+    border-radius: 15px;
+    background-color:white;
+    margin-top:3%;
+    padding: 1%;
+}
+.Link{
+    text-decoration: none;
+    color: rgb(237, 227, 227);
+}
+.Link:hover{
+    color: #3860ff;
+}
+.success{
+    color: green;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    padding-top:5px;
+}
