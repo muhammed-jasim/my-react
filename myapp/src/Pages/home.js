@@ -72,7 +72,7 @@ function Joke(){
 
     return (
         <div>
-            <h2>Joke Of The day</h2>
+            <h2>Joke Of The day</h2> 
             {joke && <p>{joke}</p>}
         </div>
     )   
